@@ -1,0 +1,35 @@
+.pagination {
+  @apply flex isolate -space-x-px rounded-md shadow-sm my-6;
+}
+
+.page-item {
+  @apply relative inline-flex items-center;
+  @apply px-3 py-1 sm:px-4 sm:py-2 text-sm;
+  @apply text-gray-900 ring-1 ring-inset ring-gray-300  focus:z-20 focus:outline-offset-0; /* 一般顏色 */
+}
+.page-item:hover {
+  background: var(--theme-color-light);
+  @apply text-white;
+}
+
+/* page func */
+.func {
+  @apply text-gray-400 ring-1 ring-inset ring-gray-300  focus:z-20 focus:outline-offset-0;
+  @apply px-1 sm:px-3;
+}
+
+/* first page */
+.first {
+  @apply rounded-l-md;
+}
+
+/* last page */
+.last {
+  @apply rounded-r-md;
+}
+
+/* 當前頁數 */
+.page-item.index {
+  background: var(--theme-color);
+  @apply font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600;
+}

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme-color: #52a38d;
+  --theme-color-light: #62ceb1;
+  --theme-color-dark: #386f60;
+  --navbar-height: 20vh;
+  --cover-background: url("/public/img/20220320_131050.jpg");
+}

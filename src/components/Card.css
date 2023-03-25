@@ -1,0 +1,101 @@
+:root {
+  --image-border-radius: 0.25rem;
+  --card-width: 300px;
+  --card-height: 220px;
+  --card-width-sm: 150px;
+  --card-height-sm: 110px;
+}
+
+.card {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: var(--image-border-radius);
+  width: var(--card-width);
+  @apply m-2 shadow-lg;
+}
+
+.card.onloaded {
+  @apply cursor-pointer;
+}
+
+.card.onloaded:hover {
+  @apply shadow-xl;
+}
+
+.image {
+  height: var(--card-height);
+  @apply flex justify-center items-center text-slate-700 bg-gray-200;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--image-border-radius) var(--image-border-radius) 0 0;
+  @apply object-cover;
+}
+
+.title {
+  @apply text-xl font-semibold;
+  height: 40px;
+  overflow: hidden;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.description {
+  width: 100%;
+  height: 10vh;
+  overflow: hidden;
+  @apply py-2;
+}
+
+.card-information {
+  @apply flex justify-end items-end pt-1 sm:pt-4 text-sm;
+}
+
+.information {
+  height: 30px;
+  @apply flex justify-center items-center flex-nowrap;
+}
+
+.information > * {
+  @apply p-1;
+}
+
+/* RWD */
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: initial;
+    flex-direction: row;
+  }
+  .image {
+    width: var(--card-width);
+  }
+  .description {
+    height: 15vh;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .image {
+    height: var(--card-height-sm);
+    width: var(--card-width-sm);
+  }
+  .card-body {
+    padding: 0rem 1rem;
+  }
+  .description {
+    height: 5vh;
+  }
+}

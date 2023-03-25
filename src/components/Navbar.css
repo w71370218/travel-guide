@@ -1,0 +1,27 @@
+.navbar {
+  position: fixed;
+  z-index: 1440;
+  background: var(--theme-color-dark);
+  /*
+  background: linear-gradient(
+    180deg,
+    var(--theme-color-dark),
+    var(--theme-color)
+  );
+  */
+  width: 100%;
+  height: var(--navbar-height);
+  @apply p-2 flex justify-center items-center;
+}
+
+.menu-items {
+  @apply flex justify-around items-center text-xl sm:text-2xl w-full;
+}
+
+.menu-item {
+  @apply text-gray-300 hover:text-white block rounded-md px-6 sm:px-3 py-2 font-medium;
+}
+
+.logo {
+  @apply flex justify-around items-center w-full md:w-2/6 sm:w-5/6 text-3xl sm:text-4xl text-white font-medium cursor-pointer;
+}

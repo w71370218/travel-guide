@@ -1,0 +1,124 @@
+[
+  {
+    "value": "Taipei",
+    "name": "台北市",
+    "cover": "P_20200526_112733.jpg",
+    "coverName": "陽明山竹子湖"
+  },
+  {
+    "value": "NewTaipei",
+    "name": "新北市",
+    "cover": "20220320_140003.jpg",
+    "coverName": "老梅石槽"
+  },
+  {
+    "value": "Taoyuan",
+    "name": "桃園市",
+    "cover": "P_20190922_135908-1.jpg",
+    "coverName": "大溪公園"
+  },
+  {
+    "value": "Taichung",
+    "name": "台中市",
+    "cover": "20230216_095056.jpg",
+    "coverName": "沐心泉休閒農場"
+  },
+  {
+    "value": "Tainan",
+    "name": "台南市",
+    "cover": "20220813_112903.jpg",
+    "coverName": "火山碧雲寺"
+  },
+  {
+    "value": "Kaohsiung",
+    "name": "高雄市",
+    "cover": "20221002_180446.jpg",
+    "coverName": "高雄燈塔"
+  },
+  {
+    "value": "Keelung",
+    "name": "基隆市",
+    "cover": "20220312_151556.jpg",
+    "coverName": "和平島公園"
+  },
+  {
+    "value": "Hsinchu",
+    "name": "新竹市",
+    "cover": "P_20190921_110946.jpg",
+    "coverName": "新竹車站"
+  },
+  {
+    "value": "HsinchuCounty",
+    "name": "新竹縣",
+    "cover": "20221223_122338-2.jpg",
+    "coverName": "尖石秀巒"
+  },
+  {
+    "value": "MiaoliCounty",
+    "name": "苗栗縣"
+  },
+  {
+    "value": "ChanghuaCounty",
+    "name": "彰化縣"
+  },
+  {
+    "value": "NantouCounty",
+    "name": "南投縣",
+    "cover": "20221105_130920-1.jpg",
+    "coverName": "大崙山觀光茶園"
+  },
+  {
+    "value": "YunlinCounty",
+    "name": "雲林縣",
+    "cover": "20230124_141645-1.jpg",
+    "coverName": "兩元五角"
+  },
+  {
+    "value": "ChiayiCounty",
+    "name": "嘉義縣",
+    "cover": "S__13287566.jpg",
+    "coverName": "隙頂"
+  },
+  {
+    "value": "Chiayi",
+    "name": "嘉義市"
+  },
+  {
+    "value": "PingtungCounty",
+    "name": "屏東縣",
+    "cover": "20220626_150330.jpg",
+    "coverName": "龍磐公園"
+  },
+  {
+    "value": "YilanCounty",
+    "name": "宜蘭縣",
+    "cover": "20210327_115015.jpg",
+    "coverName": "太平山茂興國家步道"
+  },
+  {
+    "value": "HualienCounty",
+    "name": "花蓮縣",
+    "cover": "20220409_105917.jpg",
+    "coverName": "林田山林業文化園區"
+  },
+  {
+    "value": "TaitungCounty",
+    "name": "台東縣",
+    "cover": "20230228_150659.jpg",
+    "coverName": "南田人文觀景台"
+  },
+  {
+    "value": "KinmenCounty",
+    "name": "金門縣"
+  },
+  {
+    "value": "PenghuCounty",
+    "name": "澎湖縣",
+    "cover": "IMG20180526134530.jpg",
+    "coverName": "七美雙心石滬"
+  },
+  {
+    "value": "LienchiangCounty",
+    "name": "連江縣"
+  }
+]
